@@ -1,137 +1,59 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Peter's Bootstrap Portfolio - Home</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peter's Portfolio Site - HOME</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="home">
-
-    <div class="wrapper">
-        <header>
-            <nav class="navbar navbar-expand-sm">
-                <div class="navbar-brand" href="/">Peter's Portfolio</div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <header>
+        <div class="container">
+            <h1>Peter Abeln</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
-            <div class="pic-bar"></div>
-        </header>
-
-        <div class="main">
-            <div class="container">
-                    <div class="row">
-                    <div class="col-md-12">
-                        <h1>Portfolio</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="portfolio-tile" style="background-image: url('images/butterfly1.jpg');">
-                                    <a class="portfolio-tile--title">
-                                        Test stiff goes here and other stuff goes here too
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="portfolio-tile" style="background-image: url('images/butterfly2.jpg');">
-                                    <a class="portfolio-tile--title">
-                                        Test stiff goes here and other stuff goes here too
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="portfolio-tile" style="background-image: url('images/butterfly3.jpg');">
-                                    <a class="portfolio-tile--title">
-                                        Test stiff goes here and other stuff goes here too
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="portfolio-tile" style="background-image: url('images/butterfly4.jpg');">
-                                    <a class="portfolio-tile--title">
-                                        Test stiff goes here and other stuff goes here too
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="portfolio-tile" style="background-image: url('images/butterfly5.jpg');">
-                                    <a class="portfolio-tile--title">
-                                        Test stiff goes here and other stuff goes here too
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="portfolio-tile" style="background-image: url('images/butterfly6.jpg');">
-                                    <a class="portfolio-tile--title">
-                                        Test stiff goes here and other stuff goes here too
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="well">
-                            <h2>My Skills</h2>
-                            <ul>
-                                <li>PHP/Laravel/Wordpress</li>
-                                <li>Gulp/Webpack</li>
-                                <li>HTML5/CSS3</li>
-                                <li>LESS/SCSS</li>
-                                <li>JavaScript/TypeScript</li>
-                                <li>NPM/Node.JS</li>
-                                <li>Bootstrap Framework 3+</li>
-                                <li>MSSQL/MySql</li>
-                                <li>GIT</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+    </header>
+    <main class="portfolio">
+        <div class="container">
+            <section class="main-inner">
+                <h2>Portfolio</h2>
+                
+                <div class="row">
+                    <div class="item">
+                        <div class="item-caption"><a href="">Test Copy goes here</a></div>
+                    </div>
+                    <div class="item">
+                        <div class="item-caption"><a href="">Test Copy goes here</a></div>
+                    </div>
+                </div>
 
-        <footer>
-            <div class="footer-inner">
-                <div class="copy">&copy; Peter's Portfolio</div>
-            </div>
-        </footer>
+                <div class="row">
+                    <div class="item">
+                        <div class="item-caption"><a href="">Test Copy goes here</a></div>
+                    </div>
+                    <div class="item">
+                        <div class="item-caption"><a href="">Test Copy goes here</a></div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="item">
+                        <div class="item-caption"><a href="">Test Copy goes here</a></div>
+                    </div>
+                </div>
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">&copy; Copyright</div>
+    </footer>
 </body>
 </html>
-
-<!-- 
-                
-                <img src="assets/images/nature-q-c-350-200-5.jpg" alt="Beach" class="pull-right">
-                <p> salami porchetta. Pork sirloin bacon landjaeger chuck filet mignon burgdoggen short loin cupim turducken tri-tip buffalo. Ham hock pastrami cow, tenderloin sirloin pork chop biltong chicken kielbasa prosciutto tri-tip turducken doner picanha tongue.</p>
-                <p>Bacon ipsum dolor amet cupim ham hock biltong bacon landjaeger. T-bone shoulder prosciutto cow swine alcatra leberkas filet mignon <a href="">corned beef</a> turducken tenderloin jerky pastrami flank. Brisket t-bone pancetta buffalo pork loin. Flank alcatra cow pork chop leberkas brisket swine picanha salami spare ribs meatloaf venison tenderloin fatback doner.</p>
-                <p> salami porchetta. Pork sirloin bacon <a href="">landjaeger chuck filet</a> mignon burgdoggen short loin cupim turducken tri-tip buffalo. Ham hock pastrami cow, tenderloin sirloin pork chop biltong chicken kielbasa prosciutto tri-tip turducken doner picanha tongue.</p>-->
