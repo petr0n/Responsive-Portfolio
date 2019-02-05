@@ -220,20 +220,20 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) { 
-
-}
-
 @media screen and (max-width: 640px) { 
     .container {
         width: 100%;
+    }
+    header {
+        position: static;
     }
     header .container h1 {
         float: none;
         left: 0;
         position: relative;
-        width: 100%;
+        padding: 13px 0;
         text-align: center;
+        width: 100%;
     }
     nav {
         float: none;
